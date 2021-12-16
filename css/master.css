@@ -1,0 +1,428 @@
+*{margin: 0;padding: 0;text-decoration: none;}
+@font-face {
+  src: url('../fonts/NeoGothisADFStd-Regular.otf')format('opentype');
+  font-family: "NeoGothisADFStd-Regular"
+
+}
+
+
+/* index scroll */
+
+
+
+
+/* header */
+header{
+  height: 91px;
+  background-color: #FFF5F1;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+  left: 0;
+  border-bottom: 1px solid #161615
+}
+
+.logo{
+  line-height: 120px;
+  float: left;
+  padding-top: 8px;
+
+}
+
+.menu{
+  float: right;
+  list-style: none;
+
+}
+
+.menu li {
+  float: left;
+    font-family: "NeoGothisADFStd-Regular";
+    letter-spacing: 0.09em;
+
+}
+.menu a {
+  line-height: 75px;
+  color: #161615;
+  padding: 15px;
+  padding-left: 80px;
+  display: block;
+}
+
+/* common */
+.wrapper{
+  width:1024px;
+  margin: 0 auto;
+
+}
+
+.clearfix{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* main */
+.bg{
+  height: 750px;
+  background-size: cover;
+  background-position: center;}
+
+.bg1{background-image: url('../img/main_01.png');
+
+}
+
+
+
+
+
+
+
+
+
+
+.tit1{
+  position: relative;
+  display: inline-block;
+  border: 0px solid red;
+  height: 252px;
+  left: 33%;
+  top: 45%;
+  transform: translateX(-95%)
+  translateY(-50%);}
+
+
+/* contents */
+
+.contents{
+  width: 100%;
+  background-color: #FFF5F1;
+  text-align: center;
+  height: 1950px;
+}
+
+
+.box1{
+  margin-top: 140px;
+  display: inline-block;
+  height: 1800px;
+  max-width: 1024px;
+  width: 100%;
+}
+
+
+.works_t{
+  font-size: 50px;
+  font-family: "Elephant";
+  margin-bottom: 90px;
+}
+
+/* hover */
+.box1 ul{font-size: 0;}
+
+.box1 ul > li {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+}
+
+.box1 ul > li > a {
+  display: block;
+  width: auto;
+  text-decoration: none;
+  margin: 1px;
+}
+
+.box1 ul > li > a .screen {
+
+  position: relative;
+  overflow: hidden;
+}
+
+.box1 ul > li > a .screen img {
+  width: 100%;
+}
+
+.box1 ul > li > a .screen::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(232, 94, 86, 0.7);
+  z-index: 1;
+  opacity: 0;
+  transition: all .35s;
+}
+.box1 ul > li > a:hover .screen::after {
+  opacity: 1;
+}
+
+
+.box1 ul > li > a .screen .bottom {
+  position: absolute;
+  bottom: 160%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width:98%;
+  z-index: 2;
+  color: #fff;
+  font-size: 50px;
+  font-family: "Elephant";
+  transition: all .35s;
+}
+
+.box1 ul > li > a:hover .bottom {
+  bottom: 44%;
+}
+
+
+
+
+
+
+/* contents_ac */
+
+.contents_ac{
+  height: 1200px;
+  background-color: #FFF5F1;
+  width: 100%;
+
+}
+
+.pp_01{
+    width: 1024px;
+    font-size: 30px;
+    margin:0 auto;
+}
+.pp1{font-family: "Sandoll 격동고딕2 03 Lt"; color: #161615;}
+.pp2{padding-top: 20px; font-family: "Sandoll 격동고딕2 05 Bd"; font-size: 44px; color: #161615;}
+.pp3{font-family: "Sandoll 격동고딕2 05 Bd"; font-size: 44px; color: #161615; padding-top: 10px;}
+.pp4{font-family: "Sandoll 격동고딕2 05 Bd"; color: #161615; font-size: 22px;}
+.pp5{padding-top: 10px; font-family: "Sandoll 격동고딕2 05 Bd"; font-size: 17px; color: #161615; padding-top: 11px;}
+.pp6{font-family: "Sandoll 격동고딕2 03 Lt"; font-size: 16px; color: #161615; padding-top: 25px;}
+.pp7{font-family: "Sandoll 격동고딕2 03 Lt"; font-size:16px; color: #161615; padding-top: 12px;}
+.pp8{padding-top: 10px; font-family: "Sandoll 격동고딕2 05 Bd"; font-size: 30px; color: #E85E56; padding-top: 11px;}
+.pp9{font-family:  "Noto Sans KR"; font-weight: bolder; font-size: 17px; color: #161615; padding-top: 44px;}
+.pp10{font-family:  "Noto Sans KR";  font-weight: bolder; font-size:17px; color: #161615; padding-top: 12px;}
+.pp11{padding-top: 10px; font-family: "Sandoll 격동고딕2 05 Bd"; font-size: 30px; color: #E85E56; padding-top: 11px;}
+.pp12{font-family:  "Noto Sans KR"; font-weight: normal; font-size: 19px; color: #161615; padding-top: 44px;}
+.pp13{font-family:  "Noto Sans KR";  font-weight: normal; font-size:19px; color: #161615; padding-top: 12px;}
+
+
+
+.pp2 h{color: #E85E56;}
+.pp9 h{color: #161615;  font-family:  "Noto Sans KR";  font-weight: normal; padding-right:15px;}
+.pp10 h{color: #161615;  font-family:  "Noto Sans KR";  font-weight: normal; padding-right:15px;}
+.pp12 h{color: #161615;  font-family:  "Noto Sans KR";  font-weight: normal; padding-right:37px;}
+.pp13 h{color: #161615;  font-family:  "Noto Sans KR";  font-weight: normal; padding-right:37px;}
+
+
+.pp_01{
+    width: 1024px;
+    font-size: 30px;
+    margin:0 auto;
+}
+.pp_02{
+    width: 1024px;
+    font-size: 30px;
+    padding-top: 190px;
+    margin:0 auto;
+}
+
+.pp_03{
+    width: 1024px;
+    font-size: 30px;
+    padding-top: 130px;
+    margin:0 auto;
+}
+
+.pp_04{
+    width: 1024px;
+    font-size: 30px;
+    padding-top: 130px;
+    margin:0 auto;
+}
+
+
+
+
+/* 서브 공통 레이아웃 */
+
+#sub_contents_wrap {width:100%;}
+
+#sub_contents .sub_title {font-family: "Elephant";
+  font-size: 40px;
+  font-weight: normal;
+  line-height: 600px;
+  background-color: #FFF5F1;
+  display: flex;
+  justify-content: center;
+  align-items: center;}
+
+/* 서브 밑 공간 */
+#sub_contents .contents01 {width:100%; height: 2550px; background-color: #FFF5F1; min-height:700px; }
+#sub_contents .contents02 {width:100%; height: 3200px; background-color: #FFF5F1; min-height:700px; }
+#sub_contents .contents03 {width:100%; height: 2550px; background-color: #FFF5F1; min-height:700px; }
+#sub_contents .contents04 {width:100%; height: 1450px; background-color: #FFF5F1; min-height:100px; }
+#sub_contents .contents05 {width:100%; height: 1800px; background-color: #FFF5F1; min-height:700px; }
+#sub_contents .contents06 {width:100%; height: 2650px; background-color: #FFF5F1; min-height:700px; }
+
+/* scroll */
+
+#contents > div {height: 100vh;
+  display: flex;
+  justify-content : center;
+  align-items : center;
+  position: relative;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.scroll {
+  position: absolute; bottom: 220px; left: 50%;
+  transform: translatex(-50%);
+  z-index: 2;
+  display: inline-block;
+  color:#E85E56;
+  transition: opacity .3s;
+}
+.scroll:hover {opacity:.5;}
+
+#section9 a {
+    padding-top: 60px;
+}
+#section9 a span {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 30px;
+    height: 50px;
+    margin-left: -15px;
+    border: 2px solid #E85E56;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+#section9 a span::before {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    content: '';
+    width: 6px;
+    height: 6px;
+    margin-left: -3px;
+    background-color: #E85E56;
+    border-radius: 100%;
+    animation: sdb9 2s infinite;
+    box-sizing: border-box;
+}
+@keyframes sdb9 {
+    0% {transform: translate(0, 0); opacity: 0;}
+    40% {opacity: 1;}
+    80% {transform: translate(0, 20px); opacity: 0;}
+    100% {opacity: 0;}
+}
+
+
+
+
+/* SUB CONTENTS 공통 레이아웃 */
+.top p{
+  font-family: "Sandoll 격동고딕2 03 Lt";
+  font-size: 30px;
+  margin-bottom: 120px;
+
+
+}
+
+.top{
+  width: 100%;
+  background-color: #FFF5F1;
+  text-align: center;
+  margin-top: -40px;
+
+}
+
+.icon{
+  text-align: center;
+  margin-top: 127px;
+
+}
+.top img{
+
+}
+
+
+.explain p{
+  font-family: "Sandoll 격동고딕2 03 Lt";
+  font-size: 22px;
+  margin-top: 60px;
+  letter-spacing: 0.5px;
+  line-height: 38px;
+
+}
+
+.explain02 p{
+  font-family: "Sandoll 격동고딕2 05 Bd";
+  color: #E85E56;
+  font-size: 27px;
+  margin-top: 110px;
+
+}
+.explain03 p{
+  font-family: "Sandoll 격동고딕2 03 Lt";
+  font-size: 22px;
+  margin-top: -95px;
+
+}
+
+.explain04 p{
+  font-family: "Sandoll 격동고딕2 05 Bd";
+  color: #E85E56;
+  font-size: 24px;
+
+}
+
+/* SUB01 */
+.card_wrap{
+  margin-top: -70px;
+  width: 1024px;
+  height: 1000px;
+  padding-top: 110px;
+  text-align: center;
+  display: inline-block;
+
+}
+
+.embed-container {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  height: auto;
+  margin-top: -80px;
+}
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+  position: absolute; top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+
+
+/* footer */
+.footer{
+    font-family: "Sandoll 격동고딕2 04 Rg";
+    height: 98px;
+    width: 100%;
+    background-color: #FFF5F1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
